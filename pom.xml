@@ -12,6 +12,8 @@
     <url>http://stokito.blogspot.com/2013/02/blog-post_27.html</url>
     <inceptionYear>2013</inceptionYear>
 
+         
+                           
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -43,11 +45,35 @@
         </developer>
     </developers>
 
+         
+         <properties>
+                  <suiteXmlFile>testng.xml</suiteXmlFile>
+         </properties>
+         <dependencies>
+         <dependency>
+                  <groupId>org.testng</groupId>
+                  <artifactId>testng<artifactId>
+                           <version>6.1.1</version>
+                           <scope>test</scope>
+             </dependency>
+                           
+                  <dependency>
+                            <groupId>org.seleniumhq.selenium</groupId>
+                  <artifactId>selenium-java<artifactId>
+                           <version>2.47.1</version>
+                           
+                           </dependency>
+                                    <dependencies>
+                                             <suitXmlFiles>
+                                                      <suitXmlFiles>${suiteXmlFile}</suiteXmlFile>
+         
     <dependencies>
+             
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.8.1</version>
         </dependency>
+             
     </dependencies>
 </project>
