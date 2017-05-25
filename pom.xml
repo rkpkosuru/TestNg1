@@ -52,18 +52,17 @@
          <dependencies>
          <dependency>
                   <groupId>org.testng</groupId>
-                  <artifactId>testng<artifactId>
+                  <artifactId>testng</artifactId>
                            <version>6.1.1</version>
                            <scope>test</scope>
              </dependency>
                            
                   <dependency>
                             <groupId>org.seleniumhq.selenium</groupId>
-                  <artifactId>selenium-java<artifactId>
+                  <artifactId>selenium-java</artifactId>
                            <version>2.47.1</version>
-                           
-                           </dependency>
-                                    <dependencies>
+                   </dependency>
+             <dependencies>
                                              <suitXmlFiles>
                                                       <suitXmlFiles>${suiteXmlFile}</suiteXmlFile>
          
