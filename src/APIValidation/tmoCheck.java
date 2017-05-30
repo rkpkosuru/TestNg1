@@ -28,8 +28,6 @@ public class tmoCheck {
 @Test
 	public static void main() throws ParserConfigurationException, SAXException, IOException, JSONException, ParseException {
 		
-		//Xls_Reader xls = new Xls_Reader(System.getProperty("user.dir")+"\\APIAutomation\\config\\TestData.xlsx");
-		//String sresourceURL= xls.getCellData("Input", "Resource URL", 2);
 		
 			
 		WebDriver driver =  new FirefoxDriver();
